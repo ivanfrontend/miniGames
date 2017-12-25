@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<style>
+    .action{
+        background: #cecece;
+    }
+    button {outline:none;}
+
+.Divpopolnit{
+    float: right;
+}
+
+.show{
+    display: none;
+}
+
+.wi{
+    display: block !important;
+}
+
+</style>
+<div class="Divpopolnit">
+    <div class="qwe show">
+        <div><input class="inputshow" type="number" placeholder="Ведите сумму " /></div>
+        <div><button class="popolnit2">Пополнить</button></div>
+        <div class="mass"></div>
+    </div>
+    <button class="popolnit">Пополнить</button>
+</div>
+<div id="sum" >На щёте: <span id="sunInt"></span> руб.</div>
+<div>
+    <input id="textSum" type="number">
+</div>
+<div>
+    <button class="indexBtn action"></button>
+    <button class="indexBtn"></button>
+    <button class="indexBtn"></button>
+    <button class="indexBtn"></button>
+    <button class="indexBtn"></button>
+</div>
+
+
+<button class="stavka">Ставка</button>
+<div class="rand" ></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
